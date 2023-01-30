@@ -1,0 +1,11 @@
+#invite {
+}
+
+.invite-container {
+    height: 100%;
+    width: 100%;
+}
+
+.invite-text {
+    padding: 5rem;
+}

@@ -1,0 +1,38 @@
+#guestbook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container.guestbook__container {
+    height: 100%;
+}
+
+.guestbook__text h2 {
+    text-align: center;
+}
+
+.guestbook__wishes {
+    color: black;
+    padding: 1rem;
+    background-color: aliceblue;
+    border-color: black;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.btn.guestbook__wish {
+    background-color: darkcyan;
+    color: white;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.btn.guestbook__wish:hover {
+    background: transparent;
+    border-color: darkcyan;
+    color: black;
+}
