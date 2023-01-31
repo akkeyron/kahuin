@@ -49,6 +49,7 @@ const pages = [
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [height, setHeight] = useState(0);
 
   const bookRef = useRef(null);
   const prevBtnRef = useRef(null);
@@ -57,9 +58,22 @@ const App = () => {
   const paper2Ref = useRef(null);
   const paper3Ref = useRef(null);
 
+  const divref = useRef(null);
+
   const maxLocation = pages.length * 2;
   // if mobile screen
-  const isMobile = useMediaQuery({ query: '(max-width: 600px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
+
+  useEffect(() => {
+    const calculateHeight = () => {
+      setHeight(window.innerHeight);
+    };
+    calculateHeight();
+    window.addEventListener("resize", calculateHeight);
+    return () => {
+      window.removeEventListener("resize", calculateHeight);
+    };
+  }, []);
 
   useEffect(() => {
     if (isMobile) {
@@ -195,10 +209,11 @@ const App = () => {
     nextBtnRef.current.style.transform = "translateX(0px)";
 
   }
+
   return (
-    <>
-      <div className='kad-kahwin'>
-        <div ref={bookRef} id="book">
+    <React.Fragment>
+      <div className='kad-kahwin' >
+        <div ref={bookRef} id="book" style={{ height: height }}>
           <div ref={paper1Ref} id="p1" className="paper">
             {pages[0]}
           </div>
@@ -216,7 +231,7 @@ const App = () => {
 
 
       </div>
-    </>
+    </React.Fragment>
   )
 }
 

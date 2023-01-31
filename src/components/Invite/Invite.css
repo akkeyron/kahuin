@@ -1,4 +1,10 @@
 #invite {
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .invite-container {
@@ -7,5 +13,6 @@
 }
 
 .invite-text {
+    background: pink;
     padding: 5rem;
 }

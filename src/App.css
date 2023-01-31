@@ -36,8 +36,7 @@
 
 #book {
   position: relative;
-  aspect-ratio: 4/5;
-  /* width: 10rem; */
+  /* height: 100vh; */
   width: 35vw;
   transform: translateX(0%);
   transition: transform 1s;
@@ -104,6 +103,9 @@
   display: flex;
   flex-direction: row;
   position: absolute;
+  bottom: 0;
+  gap: 6rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -132,19 +134,11 @@ i {
 
 /* responsive */
 @media screen and (max-width: 1024px) {
-  .book {
-    position: relative;
-    /* aspect-ratio: 1/1; */
-    /* width: 10rem; */
-    width: 100%;
-    transition: transform 1s;
-  }
 }
 
 @media screen and (max-width: 600px) {
   #book {
     width: 100vw;
-    aspect-ratio: 9/16;
     transition: transform 1s;
   }
 

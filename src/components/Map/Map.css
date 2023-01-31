@@ -5,9 +5,11 @@
     justify-content: center;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .map__picture {
+    
     display: flex;
 }
 
@@ -15,6 +17,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.map-embed {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
 }
 
 .btn.btn__map {

@@ -38,6 +38,7 @@ html {
 body {
   margin: 0 auto;
   display: flex;
+  /* min-height: -webkit-fill-available; */
   height: 100vh;
   flex-direction: column;
   justify-content: center;
@@ -114,7 +115,6 @@ a:hover {
 }
 
 img {
-  display: block;
   width: 100%;
   object-fit: cover;
 }
@@ -129,13 +129,6 @@ img {
     margin-top: 6rem;
   }
 }
-
+*/
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section > h2 {
-    margin-bottom: 2rem;
-  }
-} */
+} 

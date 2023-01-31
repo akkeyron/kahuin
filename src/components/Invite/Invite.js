@@ -3,7 +3,7 @@ import './Invite.css'
 
 const Invite = () => {
     return (
-        <section id="invite">
+        <div id="invite">
             <div className='container invite-container'>
                 <div className='invite-text'>
                     <h4>Sini tulis nama mak abah, nama pengantin</h4>
@@ -15,7 +15,7 @@ const Invite = () => {
 
 
             </div>
-        </section>
+        </div>
 
     )
 }
