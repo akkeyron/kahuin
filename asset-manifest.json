@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kahuin/static/css/main.2a36ca9d.css",
-    "main.js": "/kahuin/static/js/main.006b274f.js",
+    "main.js": "/kahuin/static/js/main.ab1803b2.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/walimah.PNG": "/kahuin/static/media/walimah.5dc47a67d75cdc580ea1.PNG",
     "static/media/header.PNG": "/kahuin/static/media/header.77b393ec9023884ecbeb.PNG",
     "index.html": "/kahuin/index.html",
     "main.2a36ca9d.css.map": "/kahuin/static/css/main.2a36ca9d.css.map",
-    "main.006b274f.js.map": "/kahuin/static/js/main.006b274f.js.map",
+    "main.ab1803b2.js.map": "/kahuin/static/js/main.ab1803b2.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a36ca9d.css",
-    "static/js/main.006b274f.js"
+    "static/js/main.ab1803b2.js"
   ]
 }
