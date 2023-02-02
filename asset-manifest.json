@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.1f7aebc5.css",
-    "main.js": "/kahuin/static/js/main.a69cd508.js",
+    "main.css": "/kahuin/static/css/main.81951539.css",
+    "main.js": "/kahuin/static/js/main.9c2be54e.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
-    "static/media/initial.PNG": "/kahuin/static/media/initial.3e6b2d3492a685dabcac.PNG",
-    "static/media/walimah_khat.png": "/kahuin/static/media/walimah_khat.b7f65e67018f6796455c.png",
-    "static/media/name_date.PNG": "/kahuin/static/media/name_date.2f0b5d36f45c6f91d6ef.PNG",
-    "static/media/roman_walimah.PNG": "/kahuin/static/media/roman_walimah.624fbaecd15a2e47b10c.PNG",
-    "static/media/day_date.PNG": "/kahuin/static/media/day_date.16857c691371172a72f0.PNG",
+    "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
+    "static/media/walimah_khat.png": "/kahuin/static/media/walimah_khat.91e602de201a161a499f.png",
+    "static/media/day_date.png": "/kahuin/static/media/day_date.2158f72e0ed00429a06b.png",
     "index.html": "/kahuin/index.html",
-    "main.1f7aebc5.css.map": "/kahuin/static/css/main.1f7aebc5.css.map",
-    "main.a69cd508.js.map": "/kahuin/static/js/main.a69cd508.js.map",
+    "main.81951539.css.map": "/kahuin/static/css/main.81951539.css.map",
+    "main.9c2be54e.js.map": "/kahuin/static/js/main.9c2be54e.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f7aebc5.css",
-    "static/js/main.a69cd508.js"
+    "static/css/main.81951539.css",
+    "static/js/main.9c2be54e.js"
   ]
 }
