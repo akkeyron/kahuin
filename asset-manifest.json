@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.81951539.css",
-    "main.js": "/kahuin/static/js/main.9c2be54e.js",
+    "main.css": "/kahuin/static/css/main.f7565ae3.css",
+    "main.js": "/kahuin/static/js/main.9f972846.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
     "static/media/walimah_khat.png": "/kahuin/static/media/walimah_khat.91e602de201a161a499f.png",
     "static/media/day_date.png": "/kahuin/static/media/day_date.2158f72e0ed00429a06b.png",
     "index.html": "/kahuin/index.html",
-    "main.81951539.css.map": "/kahuin/static/css/main.81951539.css.map",
-    "main.9c2be54e.js.map": "/kahuin/static/js/main.9c2be54e.js.map",
+    "main.f7565ae3.css.map": "/kahuin/static/css/main.f7565ae3.css.map",
+    "main.9f972846.js.map": "/kahuin/static/js/main.9f972846.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81951539.css",
-    "static/js/main.9c2be54e.js"
+    "static/css/main.f7565ae3.css",
+    "static/js/main.9f972846.js"
   ]
 }
