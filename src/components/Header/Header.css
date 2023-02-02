@@ -1,5 +1,4 @@
 .main__header {
-    background: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,15 +7,15 @@
 }
 
 .main__header-title {
-    top: 0;
-    width: 50%;
+    /* top: 0;
+    width: 50%; */
+    position: absolute; 
+}
+
+.main__header-pengantin {
     position: absolute;
 }
 
-.main__header-container {
-    height: 100%;
-}
-
-.main__header-image {
-    width: 75%;
+.main__header-venue {
+    position: absolute;
 }
