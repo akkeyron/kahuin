@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.191f8e8e.css",
-    "main.js": "/kahuin/static/js/main.bc41a9f8.js",
+    "main.css": "/kahuin/static/css/main.f0a151ce.css",
+    "main.js": "/kahuin/static/js/main.4eaa1d9b.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
     "static/media/gelaran.png": "/kahuin/static/media/gelaran.441c755c618ccf7dce8e.png",
     "static/media/bismillah.png": "/kahuin/static/media/bismillah.9e3bfdbf0089bd1ab0e5.png",
     "static/media/walimah_khat.png": "/kahuin/static/media/walimah_khat.91e602de201a161a499f.png",
+    "static/media/white_flower.png": "/kahuin/static/media/white_flower.f47313671399ea8c275d.png",
     "static/media/mira_loqman.png": "/kahuin/static/media/mira_loqman.da80214b45e8188dc9e0.png",
+    "static/media/pink_flower.png": "/kahuin/static/media/pink_flower.7cfb84ae19e8369bfb08.png",
     "static/media/day_date.png": "/kahuin/static/media/day_date.2158f72e0ed00429a06b.png",
     "static/media/mak_abah.png": "/kahuin/static/media/mak_abah.8bf2c738d7cc6be58ac9.png",
     "static/media/syukur.png": "/kahuin/static/media/syukur.e2c8679ecf4d546e5cba.png",
     "index.html": "/kahuin/index.html",
-    "main.191f8e8e.css.map": "/kahuin/static/css/main.191f8e8e.css.map",
-    "main.bc41a9f8.js.map": "/kahuin/static/js/main.bc41a9f8.js.map",
+    "main.f0a151ce.css.map": "/kahuin/static/css/main.f0a151ce.css.map",
+    "main.4eaa1d9b.js.map": "/kahuin/static/js/main.4eaa1d9b.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.191f8e8e.css",
-    "static/js/main.bc41a9f8.js"
+    "static/css/main.f0a151ce.css",
+    "static/js/main.4eaa1d9b.js"
   ]
 }
