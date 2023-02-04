@@ -1,18 +1,28 @@
-#invite {
-    background: #f5f5f5;
+.invite-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-}
-
-.invite-container {
     height: 100%;
-    width: 100%;
 }
 
-.invite-text {
-    background: pink;
-    padding: 5rem;
+.invite__assets-bismillah {
+    width: 40%;
+}
+
+.invite__assets-syukur {
+    width: 60%;
+}
+
+.invite__assets-gelaran {
+    width: 73%;
+}
+
+.invite__assets-parents {
+    width: 55%;
+}
+
+.invite__assets-pengantin {
+    width: 55%;
 }

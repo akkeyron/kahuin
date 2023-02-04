@@ -4,18 +4,22 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    justify-content: space-between;
 }
 
 .main__header-title {
-    /* top: 0;
-    width: 50%; */
-    position: absolute; 
+    top: 1rem;
+    width: 50%; 
+    position: relative; 
 }
 
 .main__header-pengantin {
-    position: absolute;
+    width: 75%;
+    position: relative;
 }
 
 .main__header-venue {
-    position: absolute;
+    bottom: 1rem;
+    width: 55%; 
+    position: relative;
 }
