@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.bcc3a8a3.css",
+    "main.css": "/kahuin/static/css/main.191f8e8e.css",
     "main.js": "/kahuin/static/js/main.bc41a9f8.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
@@ -12,12 +12,12 @@
     "static/media/mak_abah.png": "/kahuin/static/media/mak_abah.8bf2c738d7cc6be58ac9.png",
     "static/media/syukur.png": "/kahuin/static/media/syukur.e2c8679ecf4d546e5cba.png",
     "index.html": "/kahuin/index.html",
-    "main.bcc3a8a3.css.map": "/kahuin/static/css/main.bcc3a8a3.css.map",
+    "main.191f8e8e.css.map": "/kahuin/static/css/main.191f8e8e.css.map",
     "main.bc41a9f8.js.map": "/kahuin/static/js/main.bc41a9f8.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcc3a8a3.css",
+    "static/css/main.191f8e8e.css",
     "static/js/main.bc41a9f8.js"
   ]
 }
