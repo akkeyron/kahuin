@@ -38,8 +38,9 @@ html {
 body {
   margin: 0 auto;
   display: flex;
-  /* min-height: -webkit-fill-available; */
-  height: 100vh;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;

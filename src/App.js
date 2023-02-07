@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useMediaQuery } from 'react-responsive';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -7,6 +6,9 @@ import Invite from './components/Invite/Invite';
 import Rsvp from './components/Rsvp/Rsvp';
 import Guestbook from './components/Guestbook/Guestbook';
 import Map from './components/Map/Map';
+
+// nav icons
+import { TfiArrowCircleDown, TfiArrowCircleUp } from 'react-icons/tfi'
 
 const pages = [
   { id: 1, component: <><div className='front'><Header /></div></> },
@@ -30,7 +32,7 @@ const App = () => {
 
   useEffect(() => {
     const calculateHeight = () => {
-      setHeight(window.innerHeight);
+      setHeight(window.innerHeight - 35);
     };
     calculateHeight();
     window.addEventListener("resize", calculateHeight);
@@ -58,24 +60,20 @@ const App = () => {
   }
 
   return (
-    <React.Fragment>
-      <div className='kad-kahwin' >
-        <div ref={bookRef} id="book" style={{ height: height }}>
+    <div className='kad-kahwin' style={{ height: height }}>
+      <div ref={bookRef} id="book" >
 
-          {pages.map((page, idx) => (
-            <div key={page.id} id={`p${page.id}`} className="paper" ref={(el) => (paperRef.current[idx] = el)}>
-              {page.component}
-            </div>
-          ))}
-        </div>
-        <div className='nav-button'>
-          {currentPage === 1 ? "" : <button type='button' ref={prevBtnRef} id="prev-btn" onClick={handlePrev}>Prev</button>}
-          {currentPage === maxLocation ? "" : <button type='button' ref={nextBtnRef} id="next-btn" onClick={handleNext}>Next</button>}
-        </div>
-
-
+        {pages.map((page, idx) => (
+          <div key={page.id} id={`p${page.id}`} className="paper" ref={(el) => (paperRef.current[idx] = el)}>
+            {page.component}
+          </div>
+        ))}
       </div>
-    </React.Fragment >
+      <div className='nav-button'>
+        {currentPage === 1 ? "" : <div ref={prevBtnRef} className="nav-btn" onClick={handlePrev}><TfiArrowCircleUp size={28} /></div>}
+        {currentPage === maxLocation ? "" : <div ref={nextBtnRef} className="nav-btn" onClick={handleNext}><TfiArrowCircleDown size={28} /></div>}
+      </div>
+    </div>
   )
 }
 
