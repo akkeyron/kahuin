@@ -8,21 +8,47 @@
 }
 
 .invite__assets-bismillah {
-    width: 40%;
+    width: 45%;
+    margin-top: 1.5rem;
 }
 
 .invite__assets-syukur {
-    width: 60%;
+    width: 65%;
 }
 
 .invite__assets-gelaran {
-    width: 73%;
+    width: 78%;
 }
 
 .invite__assets-parents {
-    width: 55%;
+    width: 60%;
 }
 
 .invite__assets-pengantin {
-    width: 55%;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.invite__background {
+    position: fixed;
+    bottom: 10rem;
+    left: 0;
+    z-index: -1;
+}
+
+.invite__background img {
+    width: 30%;
+    margin: 0;
+}
+
+.invite__background-white {
+    position: fixed;
+    top: 10rem;
+    width: 100%;
+    z-index: -1;
+}
+
+.invite__background-white-img {
+    width: 20%;
+    margin-right: 0;
 }
