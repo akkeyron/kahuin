@@ -16,6 +16,12 @@
 .main__header-pengantin {
     width: 75%;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.petals {
+    position: absolute;
 }
 
 .main__header-venue {
@@ -23,3 +29,4 @@
     width: 55%; 
     position: relative;
 }
+
