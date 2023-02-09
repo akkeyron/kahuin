@@ -9,6 +9,8 @@ import Map from './components/Map/Map';
 
 // nav icons
 import { TfiArrowCircleDown, TfiArrowCircleUp } from 'react-icons/tfi'
+import { MdCall, MdLocationOn, MdHome, MdRsvp } from 'react-icons/md'
+import { SlVolume2, SlVolumeOff } from 'react-icons/sl'
 
 const pages = [
   { id: 1, component: <><div className='front'><Header /></div></> },
@@ -22,6 +24,7 @@ const pages = [
 const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [height, setHeight] = useState(0);
+  const [volume, setVolume] = useState(true);
 
   const bookRef = useRef(null);
   const prevBtnRef = useRef(null);
@@ -41,6 +44,13 @@ const App = () => {
     };
   }, []);
 
+  // button transition effect
+  // useEffect(() => {
+  //   if (currentPage === 1) {
+
+  //   }
+  // }, [currentPage])
+
   function handleNext() {
     setCurrentPage((prevPage) => Math.min(prevPage + 1, maxLocation));
     paperRef.current[currentPage - 1].classList.add("flipped");
@@ -56,12 +66,11 @@ const App = () => {
       paperRef.current[currentPage - 1].style.zIndex = 1;
       paperRef.current[currentPage].style.zIndex = 0;
     }
-
   }
 
   return (
-    <div className='kad-kahwin' style={{ height: height }}>
-      <div ref={bookRef} id="book" >
+    <div className='kad-kahwin' >
+      <div ref={bookRef} id="book" style={{ height: height }}>
 
         {pages.map((page, idx) => (
           <div key={page.id} id={`p${page.id}`} className="paper" ref={(el) => (paperRef.current[idx] = el)}>
@@ -70,6 +79,7 @@ const App = () => {
         ))}
       </div>
       <div className='nav-button'>
+        <div onClick={() => {setVolume(!volume)}} className="nav-btn">{volume === true ? <SlVolume2 size={28} /> : <SlVolumeOff size={28} />}</div>
         {currentPage === 1 ? "" : <div ref={prevBtnRef} className="nav-btn" onClick={handlePrev}><TfiArrowCircleUp size={28} /></div>}
         {currentPage === maxLocation ? "" : <div ref={nextBtnRef} className="nav-btn" onClick={handleNext}><TfiArrowCircleDown size={28} /></div>}
       </div>
