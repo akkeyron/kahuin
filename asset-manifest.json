@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.f5902692.css",
-    "main.js": "/kahuin/static/js/main.cbbbac6f.js",
+    "main.css": "/kahuin/static/css/main.8b9d49e2.css",
+    "main.js": "/kahuin/static/js/main.f624e94a.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/background.PNG": "/kahuin/static/media/background.ebe0c034fd8ca768057d.PNG",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
@@ -11,18 +11,21 @@
     "static/media/walimah_khat.png": "/kahuin/static/media/walimah_khat.91e602de201a161a499f.png",
     "static/media/ours.png": "/kahuin/static/media/ours.68b5d036d06db4547dc3.png",
     "static/media/white_flower.png": "/kahuin/static/media/white_flower.f47313671399ea8c275d.png",
+    "static/media/address_icon.png": "/kahuin/static/media/address_icon.9af273f899147f8f2ed9.png",
     "static/media/mira_loqman.png": "/kahuin/static/media/mira_loqman.da80214b45e8188dc9e0.png",
     "static/media/pink_flower.png": "/kahuin/static/media/pink_flower.7cfb84ae19e8369bfb08.png",
     "static/media/day_date.png": "/kahuin/static/media/day_date.2158f72e0ed00429a06b.png",
     "static/media/mak_abah.png": "/kahuin/static/media/mak_abah.8bf2c738d7cc6be58ac9.png",
     "static/media/syukur.png": "/kahuin/static/media/syukur.e2c8679ecf4d546e5cba.png",
+    "static/media/date_icon.png": "/kahuin/static/media/date_icon.ec46be061546815d37d6.png",
+    "static/media/time_icon.png": "/kahuin/static/media/time_icon.31abc56cbc0e6d7032cc.png",
     "index.html": "/kahuin/index.html",
-    "main.f5902692.css.map": "/kahuin/static/css/main.f5902692.css.map",
-    "main.cbbbac6f.js.map": "/kahuin/static/js/main.cbbbac6f.js.map",
+    "main.8b9d49e2.css.map": "/kahuin/static/css/main.8b9d49e2.css.map",
+    "main.f624e94a.js.map": "/kahuin/static/js/main.f624e94a.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5902692.css",
-    "static/js/main.cbbbac6f.js"
+    "static/css/main.8b9d49e2.css",
+    "static/js/main.f624e94a.js"
   ]
 }
