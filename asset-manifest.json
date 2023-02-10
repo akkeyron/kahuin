@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.8b9d49e2.css",
-    "main.js": "/kahuin/static/js/main.f624e94a.js",
+    "main.css": "/kahuin/static/css/main.84e786e6.css",
+    "main.js": "/kahuin/static/js/main.ba237a8c.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/background.PNG": "/kahuin/static/media/background.ebe0c034fd8ca768057d.PNG",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
     "static/media/petal.GIF": "/kahuin/static/media/petal.d225dd5db6e0cae75961.GIF",
+    "static/media/pink_flower.png": "/kahuin/static/media/pink_flower.7cfb84ae19e8369bfb08.png",
     "static/media/gelaran.png": "/kahuin/static/media/gelaran.441c755c618ccf7dce8e.png",
     "static/media/bismillah.png": "/kahuin/static/media/bismillah.9e3bfdbf0089bd1ab0e5.png",
     "static/media/walimah_khat.png": "/kahuin/static/media/walimah_khat.91e602de201a161a499f.png",
     "static/media/ours.png": "/kahuin/static/media/ours.68b5d036d06db4547dc3.png",
     "static/media/white_flower.png": "/kahuin/static/media/white_flower.f47313671399ea8c275d.png",
-    "static/media/address_icon.png": "/kahuin/static/media/address_icon.9af273f899147f8f2ed9.png",
     "static/media/mira_loqman.png": "/kahuin/static/media/mira_loqman.da80214b45e8188dc9e0.png",
-    "static/media/pink_flower.png": "/kahuin/static/media/pink_flower.7cfb84ae19e8369bfb08.png",
+    "static/media/address_icon.png": "/kahuin/static/media/address_icon.47832ff4288eca044083.png",
     "static/media/day_date.png": "/kahuin/static/media/day_date.2158f72e0ed00429a06b.png",
     "static/media/mak_abah.png": "/kahuin/static/media/mak_abah.8bf2c738d7cc6be58ac9.png",
+    "static/media/arrival_time.png": "/kahuin/static/media/arrival_time.9b18ecf9b001d5484a02.png",
     "static/media/syukur.png": "/kahuin/static/media/syukur.e2c8679ecf4d546e5cba.png",
-    "static/media/date_icon.png": "/kahuin/static/media/date_icon.ec46be061546815d37d6.png",
-    "static/media/time_icon.png": "/kahuin/static/media/time_icon.31abc56cbc0e6d7032cc.png",
+    "static/media/date_icon.png": "/kahuin/static/media/date_icon.c2e22e85c6541138bfa0.png",
+    "static/media/time_icon.png": "/kahuin/static/media/time_icon.f0da89b4fdf96374c541.png",
     "index.html": "/kahuin/index.html",
-    "main.8b9d49e2.css.map": "/kahuin/static/css/main.8b9d49e2.css.map",
-    "main.f624e94a.js.map": "/kahuin/static/js/main.f624e94a.js.map",
+    "main.84e786e6.css.map": "/kahuin/static/css/main.84e786e6.css.map",
+    "main.ba237a8c.js.map": "/kahuin/static/js/main.ba237a8c.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b9d49e2.css",
-    "static/js/main.f624e94a.js"
+    "static/css/main.84e786e6.css",
+    "static/js/main.ba237a8c.js"
   ]
 }
