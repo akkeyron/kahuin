@@ -3,6 +3,8 @@ import './Map.css'
 import DATE from '../../assets/page3/date_icon.png'
 import ADDRESS from '../../assets/page3/address_icon.png'
 import TIME from '../../assets/page3/time_icon.png'
+import ARRIVAL from '../../assets/page3/arrival_time.png'
+import FLOWER from '../../assets/page3/pink_flower.png'
 
 // address to the venue
 const google_location = 'https://goo.gl/maps/HDw5oc3BEio1QgL88'
@@ -16,29 +18,41 @@ const Map = () => {
 
             <div className='map__container'>
                 <div className='map__date'>
-                <img src={DATE} alt="" />
+                    <img src={DATE} alt="" />
                 </div>
-                <div className='map__address'>
 
-                <img src={ADDRESS} alt="" />
+                <div className='map__address'>
+                    <img src={ADDRESS} alt="" />
                 </div>
 
                 <div className='map__time'>
-                <img src={TIME} alt="" />
-                    
+                    <img src={TIME} alt="" />
                 </div>
+
+                <div className='map__arrival'>
+                    <img src={ARRIVAL} alt="" />
+                </div>
+
+
 
                 <div className='map__links'>
                     <div className='map__link'>
 
                     </div>
                     <div className='map__link'>
-                        
+
                     </div>
-                    
+
                 </div>
 
 
+            </div>
+            <div className='map__flower-left'>
+                <img src={FLOWER} alt="" />
+            </div>
+
+            <div className='map__flower-right'>
+                <img src={FLOWER} alt="" />
             </div>
         </div>
     )

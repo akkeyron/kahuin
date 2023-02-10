@@ -1,31 +1,48 @@
 #map {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     width: 100%;
-    position: relative;
 }
 
-.map__picture {
-    
+.map__container {
     display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.map__date {
+    width: 50%;
 }
 
 .map__address {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 90%;
 }
 
-.map-embed {
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
+.map__time {
+    width: 40%;
 }
 
-.btn.btn__map {
-    display: relative;
-    background-color: blue;
-    color: white;
+.map__arrival {
+    width: 75%;
+}
+
+.map__flower-left {
+    top: 4rem;
+    position: absolute;
+    width: 20%;
+}
+
+.map__flower-right {
+    top: 25rem;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.map__links {
+    display: flex;
+    flex-direction: row;
 }
