@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.66b295a3.css",
-    "main.js": "/kahuin/static/js/main.2cfa5f65.js",
+    "main.css": "/kahuin/static/css/main.4a48841e.css",
+    "main.js": "/kahuin/static/js/main.36ef188f.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/background.PNG": "/kahuin/static/media/background.ebe0c034fd8ca768057d.PNG",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
@@ -21,12 +21,12 @@
     "static/media/date.png": "/kahuin/static/media/date.0f76b7ee9bde02a0b3af.png",
     "static/media/centered_time.png": "/kahuin/static/media/centered_time.b8b2a43b0fadd09d2f14.png",
     "index.html": "/kahuin/index.html",
-    "main.66b295a3.css.map": "/kahuin/static/css/main.66b295a3.css.map",
-    "main.2cfa5f65.js.map": "/kahuin/static/js/main.2cfa5f65.js.map",
+    "main.4a48841e.css.map": "/kahuin/static/css/main.4a48841e.css.map",
+    "main.36ef188f.js.map": "/kahuin/static/js/main.36ef188f.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66b295a3.css",
-    "static/js/main.2cfa5f65.js"
+    "static/css/main.4a48841e.css",
+    "static/js/main.36ef188f.js"
   ]
 }
