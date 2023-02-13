@@ -1,10 +1,12 @@
 import React from 'react'
 import './Map.css'
-import DATE from '../../assets/page3/date_icon.png'
-import ADDRESS from '../../assets/page3/address_icon.png'
-import TIME from '../../assets/page3/time_icon.png'
+import DATE from '../../assets/page3/date.png'
+import ADDRESS from '../../assets/page3/address.png'
+import TIME from '../../assets/page3/centered_time.png'
 import ARRIVAL from '../../assets/page3/arrival_time.png'
 import FLOWER from '../../assets/page3/pink_flower.png'
+import DIRECTION from '../../assets/page3/redirection.png'
+import { SiWaze, SiGooglemaps } from 'react-icons/si'
 
 // address to the venue
 const google_location = 'https://goo.gl/maps/HDw5oc3BEio1QgL88'
@@ -32,19 +34,21 @@ const Map = () => {
                 <div className='map__arrival'>
                     <img src={ARRIVAL} alt="" />
                 </div>
+            </div>
 
+            <div className='map__redirection'>
+                <img src={DIRECTION} alt="" />
+            </div>
+            <div className='map__links'>
 
-
-                <div className='map__links'>
-                    <div className='map__link'>
-
-                    </div>
-                    <div className='map__link'>
-
-                    </div>
+                <div className='map__link'>
+                    <a href={waze_location} target="_blank" rel='noopener noreferrer'><SiWaze size={48} /></a>
 
                 </div>
+                <div className='map__link'>
+                    <a href={google_location} target="_blank" rel='noopener noreferrer'><SiGooglemaps size={48} /></a>
 
+                </div>
 
             </div>
             <div className='map__flower-left'>

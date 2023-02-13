@@ -27,6 +27,9 @@
 .invite__assets-pengantin {
     width: 70%;
     margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .invite__background {
