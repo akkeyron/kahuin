@@ -13,12 +13,12 @@ import { MdCall, MdLocationOn, MdHome, MdRsvp } from 'react-icons/md'
 import { SlVolume2, SlVolumeOff } from 'react-icons/sl'
 
 const pages = [
-  { id: 1, component: <><div className='front'><Header /></div></> },
-  { id: 2, component: <><div className='front'><Invite /></div></> },
-  { id: 3, component: <><div className='front'><Map /></div></> },
-  { id: 4, component: <><div className='front'><Rsvp /></div></> },
-  { id: 5, component: <><div className='front'><Guestbook /></div></> },
-  { id: 6, component: <><div className='front'><Footer /></div></> },
+  { id: 1, component: <><Header /></> },
+  { id: 2, component: <><Invite /></> },
+  { id: 3, component: <><Map /></> },
+  { id: 4, component: <><Rsvp /></> },
+  { id: 5, component: <><Guestbook /></> },
+  { id: 6, component: <><Footer /></> },
 ]
 
 const App = () => {
@@ -33,16 +33,20 @@ const App = () => {
 
   const maxLocation = pages.length;
 
-  useEffect(() => {
-    const calculateHeight = () => {
-      setHeight(window.innerHeight - 35);
-    };
-    calculateHeight();
-    window.addEventListener("resize", calculateHeight);
-    return () => {
-      window.removeEventListener("resize", calculateHeight);
-    };
-  }, []);
+  // useEffect(() => {
+  //   paperRef
+  // }, []);
+
+  // useEffect(() => {
+  //   const calculateHeight = () => {
+  //     setHeight(window.innerHeight - 35);
+  //   };
+  //   calculateHeight();
+  //   window.addEventListener("resize", calculateHeight);
+  //   return () => {
+  //     window.removeEventListener("resize", calculateHeight);
+  //   };
+  // }, []);
 
   // button transition effect
   // useEffect(() => {
@@ -70,7 +74,7 @@ const App = () => {
 
   return (
     <div className='kad-kahwin' >
-      <div ref={bookRef} id="book" style={{ height: height }}>
+      <div ref={bookRef} id="book" style={{ height: (window.innerHeight - 35) }}>
 
         {pages.map((page, idx) => (
           <div key={page.id} id={`p${page.id}`} className="paper" ref={(el) => (paperRef.current[idx] = el)}>

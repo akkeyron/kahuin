@@ -28,7 +28,9 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {

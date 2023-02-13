@@ -39,22 +39,20 @@ const Map = () => {
             <div className='map__redirection'>
                 <img src={DIRECTION} alt="" />
             </div>
-            <div className='map__links'>
 
+            <div className='map__links'>
                 <div className='map__link'>
                     <a href={waze_location} target="_blank" rel='noopener noreferrer'><SiWaze size={48} /></a>
-
                 </div>
+
                 <div className='map__link'>
                     <a href={google_location} target="_blank" rel='noopener noreferrer'><SiGooglemaps size={48} /></a>
-
                 </div>
-
             </div>
+
             <div className='map__flower-left'>
                 <img src={FLOWER} alt="" />
             </div>
-
             <div className='map__flower-right'>
                 <img src={FLOWER} alt="" />
             </div>
