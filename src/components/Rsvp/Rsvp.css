@@ -1,4 +1,7 @@
 #rsvp {
+    background: url("../../assets/rsvp/lily_background.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,25 +10,57 @@
     width: 100%;
 }
 
-.container.rsvp__container {
-    height: 100%;
+.rsvp__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 90%;
 }
 
-.rsvp__text {
-    padding: 5rem;
+/* ASSETS */
+
+.rsvp__title {
+    width: 18%;
+    margin-bottom: 2rem;
+}
+
+.rsvp__name  {
+    width: 35%;
+}
+
+.rsvp__tel {
+    width: 65%;
+}
+
+.rsvp__count {
+    width: 95%;
+}
+
+.rsvp__btn {
+    margin-top: 1rem;
+    display: inline-block;
+    color: #060606;
+    font-size: medium;
+    background-color: #ffe8ed;
+    padding: 0.75rem 4rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #747474;
 }
 
 /* FORM */
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
 }
 
 input, textarea {
-    width: 100%;
-    padding: 1.5rem;
+    width: 75%;
+    margin-bottom: 2rem;
+    padding: 0.8rem;
     border-radius: 0.5rem;
-    border: 2px solid blue;
     resize: none;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
 }

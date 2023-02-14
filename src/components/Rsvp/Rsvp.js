@@ -1,5 +1,10 @@
-import {React,useRef} from 'react'
+import { React, useRef } from 'react'
 import './Rsvp.css'
+import TITLE from '../../assets/rsvp/rsvp.png'
+import NAME from '../../assets/rsvp/nama.png'
+import COUNT from '../../assets/rsvp/no_guest.png'
+import TEL from '../../assets/rsvp/no_tel.png'
+import UCAPAN from '../../assets/rsvp/ucapan.png'
 
 const Rsvp = () => {
   const form = useRef();
@@ -11,17 +16,24 @@ const Rsvp = () => {
 
   return (
     <div id="rsvp">
-      <h2>RSVP SECTION</h2>
-      <div className='container rsvp__container'>
-        <div className='rsvp__form'>
-          <form ref={form} onSubmit={sendData}>
-            <input type="text" name="name" placeholder="Name" required />
-            <input type="tel" name="tel" placeholder="Phone No" />
-            <input type="number" name="total" placeholder="Jumlah Kehadiran" required />
-            <textarea name="message" row="7" placeholder="Ucapan kepada pengantin (optional)"></textarea>
-            <button type="submit" className="btn btn-primary">Send Message</button>
-          </form>
-        </div>
+      <div className='rsvp__container'>
+
+        <div className='rsvp__title'><img src={TITLE} alt="" /></div>
+        <form ref={form} onSubmit={sendData}>
+          <div className='rsvp__name'><img src={NAME} alt="" /></div>
+          <input type="text" name="name" required />
+
+          <div className='rsvp__tel'><img src={TEL} alt="" /></div>
+          <input type="tel" name="tel" />
+
+          <div className='rsvp__count'><img src={COUNT} alt="" /></div>
+          <input type="number" name="total" required />
+
+          <div className='rsvp__tel'><img src={UCAPAN} alt="" /></div>
+          <textarea name="message" row="7" ></textarea>
+
+          <button type="submit" className="rsvp__btn">Send</button>
+        </form>
       </div>
     </div>
   )
