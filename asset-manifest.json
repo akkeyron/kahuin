@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/kahuin/static/css/main.538adc6a.css",
-    "main.js": "/kahuin/static/js/main.e3aad236.js",
+    "main.css": "/kahuin/static/css/main.3da33943.css",
+    "main.js": "/kahuin/static/js/main.a0418b85.js",
     "static/js/787.b6439c6d.chunk.js": "/kahuin/static/js/787.b6439c6d.chunk.js",
     "static/media/background.PNG": "/kahuin/static/media/background.ebe0c034fd8ca768057d.PNG",
     "static/media/lily_background.png": "/kahuin/static/media/lily_background.a8c429164f34fcde3683.png",
     "static/media/initial.png": "/kahuin/static/media/initial.1c80510858e008ac2bae.png",
+    "static/media/border_with_flower.png": "/kahuin/static/media/border_with_flower.fa8b2e857ee1c25ec8e1.png",
     "static/media/petal.GIF": "/kahuin/static/media/petal.d225dd5db6e0cae75961.GIF",
     "static/media/flower_border.png": "/kahuin/static/media/flower_border.f964a86cfee1e47848d8.png",
     "static/media/pink_flower.png": "/kahuin/static/media/pink_flower.7cfb84ae19e8369bfb08.png",
@@ -27,12 +28,12 @@
     "static/media/centered_time.png": "/kahuin/static/media/centered_time.b8b2a43b0fadd09d2f14.png",
     "static/media/no_tel.png": "/kahuin/static/media/no_tel.8dc8349d5fbccd972ade.png",
     "index.html": "/kahuin/index.html",
-    "main.538adc6a.css.map": "/kahuin/static/css/main.538adc6a.css.map",
-    "main.e3aad236.js.map": "/kahuin/static/js/main.e3aad236.js.map",
+    "main.3da33943.css.map": "/kahuin/static/css/main.3da33943.css.map",
+    "main.a0418b85.js.map": "/kahuin/static/js/main.a0418b85.js.map",
     "787.b6439c6d.chunk.js.map": "/kahuin/static/js/787.b6439c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.538adc6a.css",
-    "static/js/main.e3aad236.js"
+    "static/css/main.3da33943.css",
+    "static/js/main.a0418b85.js"
   ]
 }
