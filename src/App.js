@@ -48,13 +48,6 @@ const App = () => {
   //   };
   // }, []);
 
-  // button transition effect
-  // useEffect(() => {
-  //   if (currentPage === 1) {
-
-  //   }
-  // }, [currentPage])
-
   function handleNext() {
     setCurrentPage((prevPage) => Math.min(prevPage + 1, maxLocation));
     paperRef.current[currentPage - 1].classList.add("flipped");

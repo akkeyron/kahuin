@@ -37,7 +37,7 @@
 }
 
 .nav-button {
-  background: rgba(0, 0, 0, 0.1);
+  background: gainsboro;
   display: flex;
   position: fixed;
   width: 35vw;

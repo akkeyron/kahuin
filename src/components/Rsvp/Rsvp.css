@@ -39,7 +39,6 @@
 }
 
 .rsvp__btn {
-    margin-top: 1rem;
     display: inline-block;
     color: #060606;
     font-size: medium;
@@ -47,7 +46,7 @@
     padding: 0.75rem 4rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid #747474;
+    border: 1px solid pink;
 }
 
 /* FORM */

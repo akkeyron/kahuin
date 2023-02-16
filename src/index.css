@@ -33,9 +33,6 @@ html {
   padding: 0;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
 /* add background-image for web */
 body {
   margin: 0 auto;
