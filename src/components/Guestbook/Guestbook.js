@@ -13,14 +13,18 @@ const endpoint = 'https://m621zbw7gb.execute-api.ap-southeast-1.amazonaws.com/de
 const Guestbook = () => {
     const [wishes, setWishes] = useState([]);
     const [showPopup, setShowPopup] = useState(false);
+    const [isloading, setLoading] = useState(false);
     const boxRef = useRef();
     const formRef = useRef(null);
 
     // fetch from api using fetch
+    // display loading message
     const fetchWishes = async () => {
+        setLoading(true);
         const response = await fetch(endpoint);
         const data = await response.json();
         setWishes(data);
+        setLoading(false);
     };
 
     useEffect (() => {
@@ -64,11 +68,13 @@ const Guestbook = () => {
 
                 <div className='guestbook__wishes' ref={boxRef}>
                     <div className='guestbook__box'>
+                        {isloading && <div>Loading...</div>}
                         <ul>
                             {wishes.map((wish, index) => (
                                 <li key={index}>
+                                    {/* message that overflows the box will be next line */}
                                     <strong>{wish.name}</strong>
-                                    <p>{wish.message}</p>
+                                    <p className='guestbook__message'>{wish.message}</p>
                                 </li>
                             ))}
                         </ul>
