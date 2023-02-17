@@ -60,18 +60,18 @@ const Rsvp = () => {
     <div id="rsvp">
       <div className='rsvp__container'>
 
-        <div className='rsvp__title'><img src={TITLE} alt="" /></div>
+        <h2>RSVP</h2>
         <form ref={formRef} onSubmit={handleSubmit}>
-          <div className='rsvp__name'><img src={NAME} alt="" /></div>
+          <p>Nama / Name</p>
           <input type="text" name="name" required />
 
-          <div className='rsvp__tel'><img src={TEL} alt="" /></div>
+          <p>No Telefon / Phone Number</p>
           <input type="tel" name="phone" />
 
-          <div className='rsvp__count'><img src={COUNT} alt="" /></div>
+          <p>Jumlah Kehadiran / Number of Guest(s)</p>
           <input type="number" name="total" required />
 
-          <div className='rsvp__tel'><img src={UCAPAN} alt="" /></div>
+          <p>Ucapan / Wishes (optional)</p>
           <textarea name="message" row="7" ></textarea>
 
           <button type="submit" className="rsvp__btn">Send</button>
