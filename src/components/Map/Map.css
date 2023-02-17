@@ -1,33 +1,23 @@
 #map {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .map__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 5rem;
     height: 55%;
+    width: 100%;
     justify-content: space-around;
+    color: pink;
 }
 
-.map__date {
-    width: 50%;
-}
-
-.map__address {
-    width: 90%;
-}
-
-.map__time {
-    width: 40%;
-}
-
-.map__arrival {
-    width: 75%;
+.map__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .map__flower-left {
@@ -49,7 +39,9 @@
 
 .map__redirection {
     margin-top: 2rem;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .map__links {
@@ -69,4 +61,14 @@
 
 .map__link a {
     color: #626262;
+}
+
+.map__text-malay {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+}
+
+.map__text-english {
+    color: var(--color-secondary);
+    font-size: 0.65rem;
 }
