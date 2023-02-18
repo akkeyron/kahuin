@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
-import INITIAL from '../../assets/initial.png'
-import WALIMAH from '../../assets/page1/walimah_new.png'
+import INITIAL from '../../assets/page1/initial.png'
+import WALIMAH from '../../assets/page1/walimah.png'
 import FLOWERS from '../../assets/page1/petal.GIF'
 
 const Header = () => {
