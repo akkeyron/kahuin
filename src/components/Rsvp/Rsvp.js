@@ -1,10 +1,5 @@
 import { React, useRef } from 'react'
 import './Rsvp.css'
-import TITLE from '../../assets/rsvp/rsvp.png'
-import NAME from '../../assets/rsvp/nama.png'
-import COUNT from '../../assets/rsvp/no_guest.png'
-import TEL from '../../assets/rsvp/no_tel.png'
-import UCAPAN from '../../assets/rsvp/ucapan.png'
 import axios from 'axios'
 
 const endpoint = 'https://m621zbw7gb.execute-api.ap-southeast-1.amazonaws.com/dev/wedding-api'
@@ -32,28 +27,6 @@ const Rsvp = () => {
         // reset form
         data.target.reset();
       });
-
-
-    // set data to aws api
-    // fetch('https://m621zbw7gb.execute-api.ap-southeast-1.amazonaws.com/dev/wedding-api', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //     'Access-Control-Allow-Origin': '*',
-    //   },
-    //   body: JSON.stringify(entries),
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log('Success:', data);
-    //   })
-    //   .catch((error) => {
-    //     console.error('Error:', error);
-    //   })
-    //   .finally(() => {
-    //     // reset form
-    //     data.target.reset();
-    //   });
   }
 
   return (

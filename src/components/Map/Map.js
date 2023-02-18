@@ -47,8 +47,8 @@ const Map = () => {
             </div>
 
             <div className='map__redirection'>
-                <p className='map__text-malay'>Tekan di bawah untuk pautan</p>
-                <p className='map__text-english'>Press below for redirection</p>
+                <p className='map__text-malay'>Tekan di bawah untuk arah perjalanan</p>
+                <p className='map__text-english'>Press below for direction</p>
             </div>
 
             <div className='map__links'>

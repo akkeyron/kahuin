@@ -68,3 +68,13 @@
     width: 100%;
   }
 }
+
+/* @media screen and (max-width: 600px) {
+  #book {
+    width: 100%;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
+} */

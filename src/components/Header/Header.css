@@ -4,29 +4,35 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .main__header-title {
-    top: 1rem;
     width: 50%; 
-    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main__header-pengantin {
-    width: 75%;
-    position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.main__header-initial {
+    width: 75%;
 }
 
 .petals {
     position: absolute;
+    width: 65%;
 }
 
 .main__header-venue {
-    bottom: 1rem;
-    width: 55%; 
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 

@@ -12,46 +12,38 @@
     margin-top: 1.5rem;
 }
 
-.invite__assets-syukur {
-    width: 65%;
-}
-
-.invite__assets-gelaran {
-    width: 78%;
-}
-
-.invite__assets-parents {
-    width: 63%;
-}
-
-.invite__assets-pengantin {
-    width: 70%;
-    margin-bottom: 1rem;
-    position: relative;
+.invite__assets-text {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.invite__background {
-    position: fixed;
-    bottom: 10rem;
-    left: 0;
-    z-index: -1;
+.invite__assets-text h2 {
+    font-family: "Abhaya Libre", serif;
+    letter-spacing: 0.05rem;
+    font-weight: 200;
+    font-size: 1rem;
 }
 
-.invite__background img {
-    width: 30%;
-    margin: 0;
+.invite__assets-pengantin {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.invite__background-white {
-    position: fixed;
-    top: 10rem;
-    width: 100%;
-    z-index: -1;
+.invite__assets-pengantin h2 {
+    font-family: "Tangerine", serif;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
 }
 
-.invite__background-white-img {
-    width: 20%;
-    margin-right: 0;
+.invite__assets-border {
+    width: 40%;
+}
+
+.text-malay2 {
+    color: var(--color-primary);
+    font-size: 0.7rem;
 }

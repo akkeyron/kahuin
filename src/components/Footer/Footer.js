@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css"
-import BACKGROUND from '../../assets/page6/background.PNG'
 import OURS from '../../assets/page6/ours.png'
 
 const Footer = () => {
