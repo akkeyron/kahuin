@@ -8,6 +8,8 @@ import Guestbook from './components/Guestbook/Guestbook';
 import Map from './components/Map/Map';
 import Navbar from './components/Navbar/Navbar'
 
+import music from './assets/lovers_oath.ogg';
+
 const pages = [
   { id: 1, component: <><Header /></> },
   { id: 2, component: <><Invite /></> },
@@ -20,9 +22,11 @@ const pages = [
 const App = () => {
   const bookRef = useRef(null);
   const paperRef = useRef([]);
+  const play = music;
 
   return (
     <div className='kad-kahwin'>
+      <audio src={play} autoPlay={true} loop={true} controls={false} />
       <div ref={bookRef} id="book" style={{ height: (window.innerHeight - 35) }}>
 
         {pages.map((page, idx) => (

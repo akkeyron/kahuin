@@ -98,10 +98,10 @@ const Guestbook = () => {
                     <div className={`popup ${showPopup ? 'active' : ''}`} onClick={(event) => event.stopPropagation()}>
                         <form ref={formRef} onSubmit={handleSubmit}>
                             <p>Nama / Name</p>
-                            <input type="text" name="name" required />
+                            <input type="text" name="name" required placeholder='' />
 
                             <p>Ucapan / Wishes</p>
-                            <textarea name="message" row="7" ></textarea>
+                            <textarea name="message" row="7" required placeholder='' />
 
                             <button type="submit" className='rsvp__btn ucapan'>Send</button>
                         </form>

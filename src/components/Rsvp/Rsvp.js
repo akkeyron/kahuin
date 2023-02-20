@@ -36,16 +36,16 @@ const Rsvp = () => {
         <h2>RSVP</h2>
         <form ref={formRef} onSubmit={handleSubmit}>
           <p>Nama / Name</p>
-          <input type="text" name="name" required />
+          <input type="text" name="name" required placeholder='' />
 
           <p>No Telefon / Phone Number</p>
-          <input type="tel" name="phone" />
+          <input type="tel" name="phone" placeholder='' />
 
           <p>Jumlah Kehadiran / Number of Guest(s)</p>
-          <input type="number" name="total" required />
+          <input type="number" name="total" required placeholder='' />
 
           <p>Ucapan / Wishes (optional)</p>
-          <textarea name="message" row="7" ></textarea>
+          <textarea name="message" row="7" placeholder='' ></textarea>
 
           <button type="submit" className="rsvp__btn">Send</button>
         </form>
