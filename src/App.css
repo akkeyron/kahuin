@@ -8,7 +8,7 @@
 
 #book {
   position: relative;
-  /* height: 100vh; */
+  height: 100vh;
   width: 35vw;
   transition: transform 1s;
   height: 100%;
