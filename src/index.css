@@ -48,6 +48,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.7;
   overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 

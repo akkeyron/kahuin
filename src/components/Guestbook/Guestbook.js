@@ -67,8 +67,6 @@ const Guestbook = () => {
             });
     };
 
-
-
     return (
         <div id="guestbook">
 
