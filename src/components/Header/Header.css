@@ -1,22 +1,38 @@
 .main__header {
-    background: pink;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
+    justify-content: space-evenly;
 }
 
 .main__header-title {
-    top: 0;
-    width: 50%;
-    position: absolute;
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.main__header-container {
-    height: 100%;
+.main__header-pengantin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main__header-image {
+.main__header-initial {
     width: 75%;
 }
+
+.petals {
+    position: absolute;
+    width: 65%;
+}
+
+.main__header-venue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+

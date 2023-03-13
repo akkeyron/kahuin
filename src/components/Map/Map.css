@@ -1,31 +1,74 @@
 #map {
+    height: 100%;
+    width: 100%;
+}
+
+.map__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
+    margin-top: 5rem;
+    height: 55%;
     width: 100%;
-    position: relative;
+    justify-content: space-around;
+    color: pink;
 }
 
-.map__picture {
-    
+.map__text {
     display: flex;
-}
-
-.map__address {
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
-.map-embed {
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
+.map__flower-left {
+    top: 2.8rem;
+    position: absolute;
+    width: 31%;
+    left: 0;
 }
 
-.btn.btn__map {
-    display: relative;
-    background-color: blue;
-    color: white;
+.map__flower-right {
+    bottom: 6rem;
+    position: absolute;
+    right: 0;
+    width: 31%;
+    z-index: -1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.map__redirection {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map__links {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+.map__link {
+    border: 1px solid #626262;
+    padding: 0.3rem;
+    padding-bottom: 0.1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.map__link a {
+    color: #626262;
+}
+
+.map__text-malay {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+}
+
+.map__text-english {
+    color: var(--color-secondary);
+    font-size: 0.65rem;
 }
