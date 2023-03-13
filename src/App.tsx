@@ -90,6 +90,7 @@ const App = () => {
   return (
     <div className='kad-kahwin'>
       {/* <audio src={play} autoPlay={true} loop={true} controls={false} /> */}
+      {/* <div id="book" style={{ height: `${window.innerHeight - 44}px` }}> */}
       <div id="book" style={{ height: `${window.innerHeight - 44}px` }}>
         {paperRef.current = new Array(pages.length)}
 

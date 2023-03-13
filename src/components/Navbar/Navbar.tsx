@@ -9,8 +9,8 @@ import { RxHamburgerMenu } from 'react-icons/rx'
 import { SlEnvolope } from 'react-icons/sl'
 import { HiOutlinePencilSquare } from 'react-icons/hi2'
 
-// music
-import music from '../../assets/music.ogg';
+// audio DOM element
+const audio = document.getElementsByTagName('audio')[0];
 
 // if user clicked outside of the dropdown close it
 const useOnClickOutside = (dropdownRef: React.RefObject<HTMLDivElement>, handler: React.MouseEventHandler<HTMLButtonElement>, menuRef: React.RefObject<HTMLDivElement>) => {
@@ -33,15 +33,14 @@ const useOnClickOutside = (dropdownRef: React.RefObject<HTMLDivElement>, handler
   }, [dropdownRef, handler]);
 }
 
-// create music object
-const audio = new Audio(music);
-
 // interface
 interface IProps {
   handlePrev: () => void;
   handleNext: () => void;
   jumpToPage: (page: number) => void;
 }
+
+
 
 const Navbar: FC<IProps> = ({ handlePrev, handleNext, jumpToPage }) => {
   // React states
@@ -54,18 +53,25 @@ const Navbar: FC<IProps> = ({ handlePrev, handleNext, jumpToPage }) => {
 
   useOnClickOutside(dropdownRef, () => setMenuPopup(false), menuRef);
 
-  useEffect(() => {
-    if (muted === false) {
+  const togglePlayPause = () => {
+    const prevState = muted;
+    setMuted(!prevState);
+    if (!audio) return;
+
+    if (prevState === false) {
+      // audioRef.current.pause();
+      // audio.pause();
+      
+    }else if (prevState === true) {
+      // audioRef.current.play();
       audio.play();
-    } else {
-      audio.pause();
     }
-  }, [muted]);
+  }
 
   return (
     <nav className='nav-button'>
       {/* music player */}
-      <div onClick={() => setMuted((prev) => !prev)} className="nav-btn">{muted === false ? <SlVolume2 size={28} /> : <SlVolumeOff size={28} />}</div>
+      <div onClick={togglePlayPause} className="nav-btn">{muted === false ? <SlVolume2 size={28} /> : <SlVolumeOff size={28} />}</div>
 
       {/* navigation buttons */}
       <div className="nav-btn" onClick={handlePrev}><TfiArrowCircleUp size={28} /></div>
