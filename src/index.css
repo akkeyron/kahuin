@@ -83,11 +83,16 @@ img {
 
 .text-malay {
   color: var(--color-primary);
-  font-size: 0.75rem;
+  font-size: min(0.75rem, 3vw);
   letter-spacing: 0.05rem;
 }
 
 .text-english {
   color: var(--color-secondary);
-  font-size: 0.65rem;
+  font-size: min(0.65rem, 3vw);
+}
+
+.text-malay2 {
+  color: var(--color-primary);
+  font-size: min(0.7rem, 3vw);
 }

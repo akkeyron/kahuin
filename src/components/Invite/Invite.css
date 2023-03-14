@@ -8,33 +8,35 @@
 }
 
 .invite__assets-bismillah {
-    width: 45%;
+    width: min(16rem, 65%);
     margin-top: 1.5rem;
 }
 
 .invite__assets-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin-inline: 1em;
 }
 
 .invite__assets-text h2 {
     font-family: "Abhaya Libre", serif;
     letter-spacing: 0.05rem;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: min(1rem, 4vw);
 }
 
 .invite__assets-pengantin {
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
 }
 
 .invite__assets-pengantin h2 {
     font-family: "Tangerine", serif;
-    font-size: 1.8rem;
+    font-size: min(1.8rem, 6vw);
     line-height: 1.4;
     letter-spacing: 0.1rem;
 }
@@ -43,7 +45,4 @@
     width: 40%;
 }
 
-.text-malay2 {
-    color: var(--color-primary);
-    font-size: 0.7rem;
-}
+

@@ -8,23 +8,20 @@
 }
 
 .rsvp__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 90%;
+    text-align: center;
+    width: 80%;
 }
 
 /* ASSETS */
 .rsvp__btn {
     display: inline-block;
-    color: #060606;
+    color: #F4F4F4;
     font-size: medium;
-    background-color: #ffe8ed;
+    background-color: #52489C;
     padding: 0.75rem 4rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid pink;
+    outline: transparent;
 }
 
 /* FORM */

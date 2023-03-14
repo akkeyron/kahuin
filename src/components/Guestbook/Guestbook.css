@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 85%;
+    height: 100%;
     justify-content: space-evenly;
 }
 
@@ -23,12 +23,6 @@
 /* text will not appear outside padding*/
 .guestbook__wishes {
     width: 100%;
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 /* sentence that overflow x will go to next line */
@@ -36,7 +30,6 @@
     overflow-y: scroll;
     text-overflow: ellipsis;
     white-space: normal;
-    height: 86%;
     background: white;
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -107,6 +100,5 @@
 }
 
 .rsvp__btn.ucapan {
-    margin-top: 0;
     margin-bottom: 2rem;
 }
