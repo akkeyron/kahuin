@@ -2,12 +2,9 @@
     background: url("../../assets/lily_background.png");
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     height: 100%;
-    width: 100%;
 }
 
 .rsvp__container {

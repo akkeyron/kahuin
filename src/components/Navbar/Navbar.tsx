@@ -59,11 +59,9 @@ const Navbar: FC<IProps> = ({ handlePrev, handleNext, jumpToPage }) => {
     if (!audio) return;
 
     if (prevState === false) {
-      // audioRef.current.pause();
-      // audio.pause();
+      audio.pause();
       
     }else if (prevState === true) {
-      // audioRef.current.play();
       audio.play();
     }
   }

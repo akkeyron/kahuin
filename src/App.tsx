@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -20,9 +20,6 @@ const pages = [
 ];
 
 const App = () => {
-  // states
-  const [muted, setMuted] = useState(false);
-
   // refs
   const paperRef = useRef<Array<HTMLDivElement>>([]);
   // const play = music;
@@ -89,9 +86,7 @@ const App = () => {
 
   return (
     <div className='kad-kahwin'>
-      {/* <audio src={play} autoPlay={true} loop={true} controls={false} /> */}
-      {/* <div id="book" style={{ height: `${window.innerHeight - 44}px` }}> */}
-      <div id="book" style={{ height: `${window.innerHeight - 44}px` }}>
+      <div id="book">
         {paperRef.current = new Array(pages.length)}
 
         {pages.map((page, idx) => (
@@ -105,8 +100,6 @@ const App = () => {
         ))}
       </div>
       {/* pass ref to navbar */}
-      {/* the value is undefined in navbar component after passing*/}
-
       <Navbar handlePrev={handlePrev} handleNext={handleNext} jumpToPage={jumpToPage} />
 
     </div>

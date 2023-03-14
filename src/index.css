@@ -91,16 +91,3 @@ img {
   color: var(--color-secondary);
   font-size: 0.65rem;
 }
-
-/* responsive */
-/* @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
-  }
-}
-*/
-@media screen and (max-width: 600px) {}

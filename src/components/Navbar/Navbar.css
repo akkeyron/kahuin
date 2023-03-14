@@ -1,10 +1,8 @@
 .nav-button {
     background: gainsboro;
     display: flex;
-    position: fixed;
-    width: 35vw;
+    width: 100%;
     z-index: 100;
-    bottom: 0;
 }
 
 
@@ -14,6 +12,10 @@
     cursor: pointer;
     padding-top: 0.5rem;
 }
+
+.nav-btn:hover {
+    color: #636363;
+  }
 
 .dropdown-content {
     visibility: hidden;
@@ -59,15 +61,4 @@
 
 .nav-btn:hover {
     color: #636363;
-}
-
-/* responsive */
-@media screen and (max-width: 1024px) {
-    #book {
-        width: 100vw;
-    }
-
-    .nav-button {
-        width: 100%;
-    }
 }

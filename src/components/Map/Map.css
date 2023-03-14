@@ -1,24 +1,18 @@
-#map {
-    height: 100%;
-    width: 100%;
-}
-
 .map__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5rem;
-    height: 55%;
+    height: 100%;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: pink;
 }
 
 .map__text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
+
 
 .map__flower-left {
     top: 2.8rem;
@@ -38,7 +32,7 @@
 }
 
 .map__redirection {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +43,7 @@
     flex-direction: row;
     width: 50%;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .map__link {
@@ -65,10 +60,10 @@
 
 .map__text-malay {
     color: var(--color-primary);
-    font-size: 0.75rem;
+    font-size: 0.75em;
 }
 
 .map__text-english {
     color: var(--color-secondary);
-    font-size: 0.65rem;
+    font-size: 0.65em;
 }
